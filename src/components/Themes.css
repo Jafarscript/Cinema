@@ -1,0 +1,36 @@
+.theme {
+  background-image: url("https://res.cloudinary.com/dvo8xhx6r/image/upload/v1647940656/Rectangle_5_kokhpp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 80px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.theme h1 {
+  margin: 0;
+  color: #fff;
+  width: 300px;
+  font-size: 70px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  margin: 0;
+  line-height: 100px;
+}
+
+@media (max-width: 530px) {
+  .theme {
+    padding-left: 0px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 530px) {
+  .theme h1 {
+    font-size: 50px;
+    line-height: normal;
+  }
+}

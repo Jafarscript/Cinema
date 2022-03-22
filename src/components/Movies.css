@@ -1,0 +1,64 @@
+h4{
+    margin: 0;
+}
+
+.moviesTab{
+   padding: 50px 80px;
+
+}
+
+.searchTab input{
+    width: 100%;
+    font-size: 30px;
+    outline: none;
+    border-radius: 2px;
+    padding: 5px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.searchTab h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.movieFlex{
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.movieFlex::-webkit-scrollbar{
+    width: 0;
+}
+
+.movieFlex h3{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.movies{
+    margin-top: 30px;
+    width: 100%;
+}
+.cate{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+@media(max-width:530px){
+    .moviesTab{
+        padding: 20px 30px;
+    }
+}
