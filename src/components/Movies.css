@@ -4,7 +4,6 @@ h4{
 
 .moviesTab{
    padding: 50px 80px;
-
 }
 
 .searchTab input{
@@ -14,13 +13,14 @@ h4{
     border-radius: 2px;
     padding: 5px;
     border: 1px solid black;
+    border-radius: 0px;
     padding-left: 10px;
 }
 
 .searchTab h4{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 400;
     margin-bottom: 5px;
 }
 
@@ -28,7 +28,6 @@ h4{
     display: flex;
     overflow-x: auto;
     flex-direction: row;
-    gap: 30px;
 }
 
 .movieFlex::-webkit-scrollbar{
@@ -36,8 +35,8 @@ h4{
 }
 
 .movieFlex h3{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     background-color: black;
     color: white;
     display: flex;
@@ -45,6 +44,9 @@ h4{
     border-radius: 10px;
     justify-content: center;
     text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    margin-right: 15px;
+    padding: 50px;
 }
 
 .movies{
@@ -52,8 +54,9 @@ h4{
     width: 100%;
 }
 .cate{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     margin: 0;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
