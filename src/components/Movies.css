@@ -3,7 +3,11 @@ h4{
 }
 
 .moviesTab{
-   padding: 50px 80px;
+   padding: 63px 77px;
+}
+
+.searchTab{
+    margin-bottom: 50px;
 }
 
 .searchTab input{
@@ -11,8 +15,8 @@ h4{
     font-size: 30px;
     outline: none;
     border-radius: 2px;
-    padding: 5px;
-    border: 1px solid black;
+    height: 54px;
+    border: 1px solid #000000;
     border-radius: 0px;
     padding-left: 10px;
 }
@@ -21,13 +25,14 @@ h4{
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .movieFlex{
     display: flex;
     overflow-x: auto;
     flex-direction: row;
+    gap: 13px;
 }
 
 .movieFlex::-webkit-scrollbar{
@@ -35,8 +40,8 @@ h4{
 }
 
 .movieFlex h3{
-    height: 150px;
-    width: 150px;
+    height: 280px;
+    width: 280px;
     background-color: black;
     color: white;
     display: flex;
@@ -44,8 +49,9 @@ h4{
     border-radius: 10px;
     justify-content: center;
     text-align: center;
+    font-size: 24px;
+    font-weight: 400;
     font-family: 'DM Sans', sans-serif;
-    margin-right: 15px;
     padding: 50px;
 }
 
@@ -58,10 +64,33 @@ h4{
     margin: 0;
     font-weight: 400;
     margin-bottom: 10px;
+    font-size: 24px;
 }
 
-@media(max-width:530px){
+@media(max-width:900px){
+   
+}
+
+@media(max-width: 450px){
     .moviesTab{
-        padding: 20px 30px;
+        padding: 56px 28px;
+    }
+    
+    .movieFlex h3{
+        width: 200px;
+        height: 200px;
+        font-size: 18px;
+    }
+
+    .cate{
+        font-size: 18px;
+    }
+
+    .searchTab h4{
+        font-size: 16px;
+    }
+
+    .searchTab input{
+        height: 34px;
     }
 }

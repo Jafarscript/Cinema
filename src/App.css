@@ -5,8 +5,7 @@
 
 .App-header{
   background-color: #292929;
-  padding: 50px 0px;
-  padding-left: 80px;
+  padding: 40px 77px;
 }
 
 .App-header h1{
@@ -16,18 +15,23 @@
   display: inline;
   font-weight: 100;
   font-family: 'Times New Roman', Times, serif;
-  padding: 15px 20px;
+  padding: 14px 19px;
+  font-size: 32px;
 }
 
-@media(max-width:530px){
+@media(max-width:900px){
   .App-header{
-    padding-left: 0;
     text-align: center;
-    padding: 30px 0px;
+  }
+}
+
+
+@media(max-width: 450px){
+  .App-header{
+    padding: 17px;
   }
   .App-header h1{
-    font-size: 20px;
-    padding: 10px;
-    font-weight: 100;
+    padding: 8px 11px;
+    font-size: 18px;
   }
 }

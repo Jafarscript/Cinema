@@ -11,7 +11,7 @@ const Movies = () => {
   useEffect(() => {
     async function fetchData() {
       const req = await axios.get(
-        "https://omdbapi.com/?apikey=507fecc9&type=movie&s=blade"
+        `${process.env.REACT_APP_API_URL}&type=movie&s=blade`
       );
       setMovies(req.data.Search);
       console.log(req.data);
@@ -22,7 +22,7 @@ const Movies = () => {
   useEffect(() => {
     async function fetchData() {
       const req = await axios.get(
-        "https://omdbapi.com/?apikey=507fecc9&type=series&s=god"
+        `${process.env.REACT_APP_API_URL}&type=series&s=god`
       );
       setSeries(req.data.Search);
       console.log(req.data);

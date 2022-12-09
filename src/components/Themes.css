@@ -3,8 +3,8 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-left: 80px;
-  min-height: 80vh;
+  padding-left: 77px;
+  height: 550px;
   display: flex;
   align-items: center;
 }
@@ -19,21 +19,24 @@
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0;
-  line-height: 93.74px;
+  line-height: 94px;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 900px) {
   .theme {
-    padding-left: 0px;
+    padding-left: 0;
     justify-content: center;
     text-align: center;
-    min-height: 60vh;
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 450px) {
   .theme h1 {
-    font-size: 50px;
-    line-height: normal;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .theme{
+    height: 257px;
   }
 }
